@@ -1,0 +1,39 @@
+{
+  "author": {
+    "id": "au-mul9t76ozxf9",
+    "keyId": "050c08195199",
+    "name": "辉煌帝"
+  },
+  "category": "舰船",
+  "changelog": "",
+  "conflicts": [],
+  "delisted": false,
+  "description": "新增加达里掠夺级「斯库拉级 / Scylla」（typeID 700001，借用魔像模型），复制魔像级全部船体加成，并追加专属加成「暴雨梨花」：导弹出膛后分裂成 10 枚 -1 尺寸导弹，总伤害与总射程不变（含自动锁定弹药 396→395→394）。自带本地 HTML 编辑器：双击 mods/evejs-scylla-marauder/Start-Ship-Editor.bat（端口 26105，只写 data/ship.json），改完重启服务端生效。",
+  "displayName": "斯库拉级（Scylla）· 暴雨梨花",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/huihuangdi/evejs-mod-evejs-scylla-marauder/releases/download/v0.6.4/evejs-scylla-marauder-0.6.4.zip"
+    }
+  ],
+  "evejsVersions": [
+    "261115.x"
+  ],
+  "featured": false,
+  "highlights": [],
+  "history": [],
+  "id": "evejs-scylla-marauder",
+  "publishedAt": "2026-11-23",
+  "readme": [
+    "在 EveJS 里新增加达里**掠夺级**战舰 `斯库拉级 / Scylla`（typeID `700001`），复制魔像级（Golem）的全部船体加成，\n并追加专属加成 **暴雨梨花**：导弹在出膛后分裂为 10 枚「-1 尺寸」导弹 —— 总伤害与总射程不变，仍吃技能与装备加成。",
+    "设计文档：[`doc/planning/开发计划-斯库拉级-暴雨梨花.md`](../../doc/planning/开发计划-斯库拉级-暴雨梨花.md)",
+    "**编辑器（改数值 / 文案用）：双击 `mods/evejs-scylla-marauder/Start-Ship-Editor.bat`** ——\n端口 `26105`，只写 `data/ship.json`，改完重启服务端生效（改服务端逻辑不用动客户端）。\n命令行等价写法：`node mods/evejs-scylla-marauder/editor/server.js --open`。"
+  ],
+  "repo": "https://github.com/huihuangdi/evejs-mod-evejs-scylla-marauder",
+  "requiresRestart": true,
+  "sha256": "858e2949879050150d6d7ce7d69b4b317187539fe88d859d8dd9fc8e660b8254",
+  "sizeBytes": 38521770,
+  "tags": [],
+  "version": "0.6.4"
+}
